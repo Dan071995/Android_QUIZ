@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Опросник</string>
+    <string name="welcome_string">Добро\nпожаловать!</string>
+    <string name="start">Начать!</string>
+    <string name="goBack">Вернуться</string>
+    <string name="send">Отправить</string>
+    <string name="back">Назад</string>
+    <string name="startAgain">Начать заново</string>
+    <string name="date_of_birth">Дата рождения</string>
+    <string name="data_picker_title">Выберете дату рождения</string>
+    <string name="answer_not_selected">Ответ не выбран => Результат не известен!</string>
+</resources>

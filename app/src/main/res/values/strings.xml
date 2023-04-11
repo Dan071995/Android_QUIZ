@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Questionnaire</string>
+    <string name="welcome_string">Welcome!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="start">Start!</string>
+    <string name="goBack">Return</string>
+    <string name="send">Send</string>
+    <string name="startAgain">Start Again</string>
+    <string name="date_of_birth">Birth Date</string>
+    <string name="data_picker_title">Choose date of birth</string>
+    <string name="back">Back</string>
+
+    <string name="error" translatable="false">ERROR!!</string>
+    <string name="errorQuestion" translatable="false">QUESTION NOT FOUND! INCORRECT SENT questionNumber !!</string>
+
+    <string name="answer_not_selected">No answer selected => Result unknown!</string>
+</resources>

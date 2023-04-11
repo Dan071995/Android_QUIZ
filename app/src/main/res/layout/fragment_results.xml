@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".fragments.ResultsFragment">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/question1"
+        style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:textSize="25sp"
+
+        tools:text="Как тебе наш Android курс?" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_margin="16dp"
+        android:id="@+id/result11TextView"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Fdsfsdfsf" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/question2"
+        style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:textSize="25sp"
+
+        tools:text="Как тебе наш Android курс?" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_margin="16dp"
+        android:id="@+id/result12TextView"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Fdsfsdfsf" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/question3"
+        style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:textSize="25sp"
+
+        tools:text="Как тебе наш Android курс?" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_margin="16dp"
+        android:id="@+id/result13TextView"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Fdsfsdfsf" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/LottieView"
+        app:lottie_rawRes="@raw/welldone_anim"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_speed="1.0"
+
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+
+        android:text="@string/startAgain" />
+
+</LinearLayout>

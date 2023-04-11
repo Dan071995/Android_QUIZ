@@ -19,7 +19,7 @@ object QuizStorage {
     private val quizRu = object : Quiz {
         override val questions: List<Question> = listOf(
             Question(
-                question = "Как тебе наш Android курс?",
+                question = "Как тебе мое Android приложение?",
                 answers = listOf(
                     "на 2",
                     "на 3",
@@ -27,10 +27,10 @@ object QuizStorage {
                     "на 5",
                 ),
                 feedback = listOf(
-                    "Вам не нравится наш курс.",
-                    "Вас удовлетворяет наш курс.",
-                    "Вы оценили наш курс хорошо.",
-                    "Вы оценили наш курс отлично.",
+                    "Вам не нравится приложение.",
+                    "Вас удовлетворяет приложением.",
+                    "Вы оценили приложение на хорошо.",
+                    "Вы оценили приложение на отлично.",
                 ),
             ),
             Question(
@@ -38,29 +38,29 @@ object QuizStorage {
                 answers = listOf(
                     "Обзательно",
                     "Уже порекомендовал",
-                    "Посмотрим, что будет дальше",
+                    "Может быть",
                     "Нет",
                 ),
                 feedback = listOf(
-                    "Вы готовы порекомендовать наш курс.",
-                    "Вы уже порекомендовали курс своим друзьям.",
-                    "Вам нужно больше времени, чтобы порекомендовать наш курс.",
-                    "Вы не готовы рекомендовать наш курс.",
+                    "Вы готовы порекомендовать данное приложение.",
+                    "Вы уже порекомендовали приложение своим друзьям.",
+                    "Вам нужно больше времени, чтобы порекомендовать данное приложение.",
+                    "Вы не готовы рекомендовать данное приложение.",
                 ),
             ),
             Question(
-                question = "Пользовался ли ты обратной связью?",
+                question = "Есть ли у вас идеии как можно улучшить данное приложение?",
                 answers = listOf(
                     "Да",
-                    "Еще нет, но сейчас воспользуюсь",
-                    "Нет, еще не приходилось",
-                    "Нет, и не буду",
+                    "Еще нет, но я подумаю",
+                    "Нет, вроде все хорошо",
+                    "Нет, все идеально",
                 ),
                 feedback = listOf(
                     "Спасибо за обратную связь!",
                     "Спасибо за обратную связь!",
-                    "Ждем вашу обратную связь!",
-                    "Мы надеемся, что у вас пояится возможность дать нам обратную связь.",
+                    "Спасибо за высокую оценку!",
+                    "Спасибо за высокую оценку",
                 ),
             ),
         )
@@ -70,7 +70,7 @@ object QuizStorage {
     private val quizEn = object : Quiz {
         override val questions: List<Question> = listOf(
             Question(
-                question = "Please, Rate Android course?",
+                question = "Please, Rate my Android App?",
                 answers = listOf(
                     "F",
                     "C",
@@ -85,7 +85,7 @@ object QuizStorage {
                 ),
             ),
             Question(
-                question = "Do you want to recommend us to your friends?",
+                question = "Do you want to recommend this app to your friends?",
                 answers = listOf(
                     "Sure",
                     "Already recommend",
@@ -93,25 +93,25 @@ object QuizStorage {
                     "No",
                 ),
                 feedback = listOf(
-                    "You want to recommend our course",
-                    "You already recommend our course",
+                    "You want to recommend this app",
+                    "You already recommend this app",
                     "You need more time for make recommendations",
                     "You are not ready to recommendations",
                 ),
             ),
             Question(
-                question = "Did you use the course feedback?",
+                question = "Do you have any ideas how this application can be improved?",
                 answers = listOf(
                     "Yes",
-                    "Not yet, but now I will use it",
-                    "No, it hasn't happened yet",
-                    "No, and I won't",
+                    "Not yet, but I'll think about it ",
+                    "No, everything seems to be fine",
+                    "No, everything is fine",
                 ),
                 feedback = listOf(
                     "Thanks for feedback!",
                     "Thanks for feedback!",
-                    "Waiting for your feedback!",
-                    "We hope you will have the opportunity to give us feedback",
+                    "Thanks for the high rating!",
+                    "Thanks for the high rating",
                 ),
             ),
         )
